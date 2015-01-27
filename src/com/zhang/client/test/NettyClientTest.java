@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-package com.zhang.client;
+package com.zhang.client.test;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.handler.codec.http.HttpHeaders;
@@ -23,6 +23,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.Test;
+
+import com.zhang.client.NettyHttpClient;
+import com.zhang.client.NettyHttpRequest;
+import com.zhang.client.NettyHttpResponse;
+import com.zhang.client.NettyHttpResponseFuture;
 
 /**
  * @author xianwu.zhang
