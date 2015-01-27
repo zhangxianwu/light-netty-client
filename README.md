@@ -16,7 +16,7 @@ The sample code for sending get request:
     client.close();
 The sample code for sending post request:
 
-    String postUrl = "www.xxx.com:8080/testPost";
+    String postUrl = "http://www.xxx.com:8080/testPost";
     String postContent = "";//json format
     NettyHttpRequest request = new NettyHttpRequest();
     request.header(HttpHeaders.Names.CONTENT_TYPE, "text/json; charset=GBK").uri(postUrl).content(
