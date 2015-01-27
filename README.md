@@ -1,5 +1,5 @@
 # light-netty-client
-Light-netty-client is a light framework for rapid development of asynchronous clients based on netty.
+Light-netty-client is a light framework for rapid development of asynchronous clients based on netty 4.x.
 
 The sample code for sending get request:
 
