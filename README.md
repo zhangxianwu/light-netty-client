@@ -41,3 +41,7 @@ You can config the maximum number of channels to allow in the channel pool like 
         .maxPerRoute(maxPerRoute)
         .build();
 If you not config this, the default value is 200.
+
+
+For more information,please refer to the following blog
+http://xw-z1985.iteye.com/blog/2180873
